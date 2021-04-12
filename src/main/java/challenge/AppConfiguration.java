@@ -10,7 +10,7 @@ import org.springframework.web.filter.CommonsRequestLoggingFilter;
 
 @Configuration
 @ComponentScan("services")
-public class Config {
+public class AppConfiguration {
 	
     @Bean
     public HttpClient httpClient() {
