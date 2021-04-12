@@ -34,7 +34,7 @@ public class WeatherController {
 	}
 	
 	@GetMapping("/forecast")
-  	public JSONObject forecast() throws IOException, InterruptedException, ParseException {
+  	public JSONObject forecast() {
 		return weatherService.forecast();
 	}
 	
