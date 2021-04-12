@@ -1,0 +1,35 @@
+2021-04-12 01:12:46.603  INFO 3348 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 3348 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 01:12:46.604  INFO 3348 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 01:12:46.958  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 01:12:46.960  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 01:12:46.967  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 01:12:47.323  INFO 3348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 01:12:47.330  INFO 3348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 01:12:47.330  INFO 3348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 01:12:47.388  INFO 3348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 01:12:47.388  INFO 3348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 754 ms
+2021-04-12 01:12:47.419 DEBUG 3348 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 01:12:47.621  INFO 3348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:12:47.657  INFO 3348 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 01:12:47.836  INFO 3348 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79ab97fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fb5ad40, org.springframework.security.web.header.HeaderWriterFilter@77c66a4f, org.springframework.security.web.csrf.CsrfFilter@10ed037a, org.springframework.security.web.authentication.logout.LogoutFilter@73bb573d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@414b2df5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7ac058a0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a9b41a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@74123110, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@632cf7d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67d8faec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fe46d52, org.springframework.security.web.session.SessionManagementFilter@7a3f08b6, org.springframework.security.web.access.ExceptionTranslationFilter@150fc7a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@407b8435]
+2021-04-12 01:12:47.878  INFO 3348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 01:12:47.885  INFO 3348 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.529 seconds (JVM running for 1.784)
+2021-04-12 01:13:04.724  INFO 3348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 01:13:04.725  INFO 3348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 01:13:04.732  INFO 3348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-12 01:13:07.622 DEBUG 3348 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /]
+2021-04-12 01:13:07.637 DEBUG 3348 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /]
+2021-04-12 01:13:07.656 DEBUG 3348 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /styles.css]
+2021-04-12 01:13:07.659 DEBUG 3348 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /runtime.js]
+2021-04-12 01:13:07.660 DEBUG 3348 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /vendor.js]
+2021-04-12 01:13:07.660 DEBUG 3348 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /polyfills.js]
+2021-04-12 01:13:07.660 DEBUG 3348 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /main.js]
+2021-04-12 01:13:07.661 DEBUG 3348 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /styles.css]
+2021-04-12 01:13:07.670 DEBUG 3348 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /runtime.js]
+2021-04-12 01:13:07.676 DEBUG 3348 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /polyfills.js]
+2021-04-12 01:13:07.685 DEBUG 3348 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /vendor.js]
+2021-04-12 01:13:07.686 DEBUG 3348 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /main.js]
+2021-04-12 01:13:07.763 DEBUG 3348 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /weather]
+2021-04-12 01:13:07.763 DEBUG 3348 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /resource]
+2021-04-12 01:13:07.785 DEBUG 3348 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /resource]
+2021-04-12 01:13:08.328 DEBUG 3348 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /weather]
