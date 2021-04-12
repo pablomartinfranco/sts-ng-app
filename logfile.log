@@ -33,3 +33,492 @@
 2021-04-12 01:13:07.763 DEBUG 3348 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /resource]
 2021-04-12 01:13:07.785 DEBUG 3348 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /resource]
 2021-04-12 01:13:08.328 DEBUG 3348 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /weather]
+2021-04-12 01:21:55.844 DEBUG 3348 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /]
+2021-04-12 01:21:55.849 DEBUG 3348 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /]
+2021-04-12 01:25:22.556  INFO 3348 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:25:53.616  INFO 24188 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 24188 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 01:25:53.617  INFO 24188 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 01:25:53.970  INFO 24188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 01:25:53.971  INFO 24188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 01:25:53.979  INFO 24188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 01:25:54.333  INFO 24188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 01:25:54.339  INFO 24188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 01:25:54.340  INFO 24188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 01:25:54.389  INFO 24188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 01:25:54.389  INFO 24188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2021-04-12 01:25:54.418 DEBUG 24188 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 01:25:54.615  INFO 24188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:25:54.652  INFO 24188 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 01:25:54.828  INFO 24188 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79ab97fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@632cf7d3, org.springframework.security.web.header.HeaderWriterFilter@7a3f08b6, org.springframework.security.web.csrf.CsrfFilter@23121d14, org.springframework.security.web.authentication.logout.LogoutFilter@736b21ee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@414b2df5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@60deefed, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a9b41a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@74123110, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2315052d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7eaa2bc6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fe46d52, org.springframework.security.web.session.SessionManagementFilter@5fb5ad40, org.springframework.security.web.access.ExceptionTranslationFilter@798cf6d2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@407b8435]
+2021-04-12 01:25:54.870  INFO 24188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 01:25:54.877  INFO 24188 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.519 seconds (JVM running for 1.793)
+2021-04-12 01:26:10.879  INFO 24188 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 01:26:10.879  INFO 24188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 01:26:10.883  INFO 24188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-12 01:26:13.689 DEBUG 24188 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /]
+2021-04-12 01:26:13.704 DEBUG 24188 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /]
+2021-04-12 01:26:13.718 DEBUG 24188 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /styles.css]
+2021-04-12 01:26:13.722 DEBUG 24188 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /polyfills.js]
+2021-04-12 01:26:13.722 DEBUG 24188 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /runtime.js]
+2021-04-12 01:26:13.722 DEBUG 24188 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /main.js]
+2021-04-12 01:26:13.722 DEBUG 24188 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /vendor.js]
+2021-04-12 01:26:13.724 DEBUG 24188 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /styles.css]
+2021-04-12 01:26:13.726 DEBUG 24188 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /polyfills.js]
+2021-04-12 01:26:13.733 DEBUG 24188 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /runtime.js]
+2021-04-12 01:26:13.733 DEBUG 24188 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /main.js]
+2021-04-12 01:26:13.771 DEBUG 24188 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /vendor.js]
+2021-04-12 01:26:13.842 DEBUG 24188 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /weather]
+2021-04-12 01:26:13.842 DEBUG 24188 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /information]
+2021-04-12 01:26:13.869 DEBUG 24188 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /information]
+2021-04-12 01:26:14.453 DEBUG 24188 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /weather]
+2021-04-12 01:38:58.846  INFO 24188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:39:23.352  INFO 16480 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 16480 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 01:39:23.354  INFO 16480 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 01:39:23.713  INFO 16480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 01:39:23.714  INFO 16480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 01:39:23.721  INFO 16480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 01:39:24.068  INFO 16480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 01:39:24.074  INFO 16480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 01:39:24.075  INFO 16480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 01:39:24.139  INFO 16480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 01:39:24.139  INFO 16480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 758 ms
+2021-04-12 01:39:24.168 DEBUG 16480 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 01:39:24.363  INFO 16480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:39:24.400  INFO 16480 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 01:39:24.577  INFO 16480 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6af78a48, org.springframework.security.web.context.SecurityContextPersistenceFilter@49491770, org.springframework.security.web.header.HeaderWriterFilter@62cf6a84, org.springframework.security.web.csrf.CsrfFilter@798cf6d2, org.springframework.security.web.authentication.logout.LogoutFilter@101330ad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@418f0534, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@625487a6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6ed18d80, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@28f154cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b57dba4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42d9e8d2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c24f3a2, org.springframework.security.web.session.SessionManagementFilter@6b2aafbc, org.springframework.security.web.access.ExceptionTranslationFilter@6dae70f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79ab97fd]
+2021-04-12 01:39:24.619  INFO 16480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 01:39:24.626  INFO 16480 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.528 seconds (JVM running for 1.8)
+2021-04-12 01:39:39.153  INFO 16480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 01:39:39.154  INFO 16480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 01:39:39.157  INFO 16480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-12 01:39:42.230 DEBUG 16480 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /]
+2021-04-12 01:39:42.245 DEBUG 16480 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /]
+2021-04-12 01:39:42.260 DEBUG 16480 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /styles.css]
+2021-04-12 01:39:42.263 DEBUG 16480 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /vendor.js]
+2021-04-12 01:39:42.263 DEBUG 16480 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /main.js]
+2021-04-12 01:39:42.263 DEBUG 16480 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /runtime.js]
+2021-04-12 01:39:42.263 DEBUG 16480 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /polyfills.js]
+2021-04-12 01:39:42.265 DEBUG 16480 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /styles.css]
+2021-04-12 01:39:42.282 DEBUG 16480 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /main.js]
+2021-04-12 01:39:42.282 DEBUG 16480 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /vendor.js]
+2021-04-12 01:39:42.292 DEBUG 16480 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /runtime.js]
+2021-04-12 01:39:42.294 DEBUG 16480 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /polyfills.js]
+2021-04-12 01:39:42.357 DEBUG 16480 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /weather]
+2021-04-12 01:39:42.357 DEBUG 16480 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /information]
+2021-04-12 01:39:42.368 DEBUG 16480 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /weather]
+2021-04-12 01:39:42.374 ERROR 16480 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Illegal character in query at index 55: http://api.openweathermap.org/data/2.5/weather?q=Buenos Aires,ar&appid=f045a059df662d7d23a1dcaac47a3bcf] with root cause
+
+java.net.URISyntaxException: Illegal character in query at index 55: http://api.openweathermap.org/data/2.5/weather?q=Buenos Aires,ar&appid=f045a059df662d7d23a1dcaac47a3bcf
+	at java.base/java.net.URI$Parser.fail(URI.java:2913) ~[na:na]
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3084) ~[na:na]
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3172) ~[na:na]
+	at java.base/java.net.URI$Parser.parse(URI.java:3114) ~[na:na]
+	at java.base/java.net.URI.<init>(URI.java:600) ~[na:na]
+	at java.base/java.net.URI.create(URI.java:881) ~[na:na]
+	at challenge.WeatherController.weather(WeatherController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:149) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-04-12 01:39:42.382 DEBUG 16480 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /information]
+2021-04-12 01:39:54.709 DEBUG 16480 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 01:39:54.710 DEBUG 16480 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 01:39:54.714 ERROR 16480 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Illegal character in query at index 56: http://api.openweathermap.org/data/2.5/forecast?q=Buenos Aires,ar&appid=f045a059df662d7d23a1dcaac47a3bcf] with root cause
+
+java.net.URISyntaxException: Illegal character in query at index 56: http://api.openweathermap.org/data/2.5/forecast?q=Buenos Aires,ar&appid=f045a059df662d7d23a1dcaac47a3bcf
+	at java.base/java.net.URI$Parser.fail(URI.java:2913) ~[na:na]
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3084) ~[na:na]
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3172) ~[na:na]
+	at java.base/java.net.URI$Parser.parse(URI.java:3114) ~[na:na]
+	at java.base/java.net.URI.<init>(URI.java:600) ~[na:na]
+	at java.base/java.net.URI.create(URI.java:881) ~[na:na]
+	at challenge.WeatherController.forecast(WeatherController.java:55) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:149) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-04-12 01:41:39.736  INFO 16480 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:42:11.842  INFO 24284 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 24284 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 01:42:11.843  INFO 24284 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 01:42:12.205  INFO 24284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 01:42:12.207  INFO 24284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 01:42:12.214  INFO 24284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 01:42:12.568  INFO 24284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 01:42:12.575  INFO 24284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 01:42:12.575  INFO 24284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 01:42:12.639  INFO 24284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 01:42:12.640  INFO 24284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2021-04-12 01:42:12.670 DEBUG 24284 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 01:42:12.875  INFO 24284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:42:12.912  INFO 24284 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 01:42:13.097  INFO 24284 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@448ade1, org.springframework.security.web.context.SecurityContextPersistenceFilter@51b87df7, org.springframework.security.web.header.HeaderWriterFilter@1be52861, org.springframework.security.web.csrf.CsrfFilter@72af90e8, org.springframework.security.web.authentication.logout.LogoutFilter@60deefed, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26275b46, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@49754e74, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@21f9c6ea, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a9b41a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@634e1b39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6dae70f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@418f0534, org.springframework.security.web.session.SessionManagementFilter@615439f7, org.springframework.security.web.access.ExceptionTranslationFilter@1c1fa494, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d91fa02]
+2021-04-12 01:42:13.140  INFO 24284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 01:42:13.147  INFO 24284 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.561 seconds (JVM running for 1.826)
+2021-04-12 01:42:16.094  INFO 24284 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 01:42:16.095  INFO 24284 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 01:42:16.104  INFO 24284 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-12 01:42:19.642 DEBUG 24284 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 01:42:20.495 DEBUG 24284 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 01:45:25.848 DEBUG 24284 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 01:45:26.564 DEBUG 24284 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 01:45:28.322 DEBUG 24284 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 01:45:28.788 DEBUG 24284 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 01:45:32.045  INFO 24284 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:45:55.444  INFO 14116 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 14116 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 01:45:55.446  INFO 14116 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 01:45:55.809  INFO 14116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 01:45:55.811  INFO 14116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 01:45:55.818  INFO 14116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 01:45:56.165  INFO 14116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 01:45:56.172  INFO 14116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 01:45:56.172  INFO 14116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 01:45:56.230  INFO 14116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 01:45:56.230  INFO 14116 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 747 ms
+2021-04-12 01:45:56.263 DEBUG 14116 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 01:45:56.459  INFO 14116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:45:56.496  INFO 14116 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 01:45:56.673  INFO 14116 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6af78a48, org.springframework.security.web.context.SecurityContextPersistenceFilter@49491770, org.springframework.security.web.header.HeaderWriterFilter@62cf6a84, org.springframework.security.web.csrf.CsrfFilter@798cf6d2, org.springframework.security.web.authentication.logout.LogoutFilter@101330ad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@418f0534, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@625487a6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6ed18d80, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@28f154cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b57dba4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42d9e8d2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c24f3a2, org.springframework.security.web.session.SessionManagementFilter@6b2aafbc, org.springframework.security.web.access.ExceptionTranslationFilter@6dae70f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79ab97fd]
+2021-04-12 01:45:56.717  INFO 14116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 01:45:56.724  INFO 14116 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.534 seconds (JVM running for 1.785)
+2021-04-12 01:45:59.774  INFO 14116 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 01:45:59.775  INFO 14116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 01:45:59.779  INFO 14116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-12 01:46:02.800 DEBUG 14116 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 01:46:03.440 DEBUG 14116 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 01:47:57.782  INFO 14116 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:48:18.670  INFO 10548 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 10548 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 01:48:18.671  INFO 10548 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 01:48:19.026  INFO 10548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 01:48:19.027  INFO 10548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 01:48:19.034  INFO 10548 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 01:48:19.386  INFO 10548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 01:48:19.392  INFO 10548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 01:48:19.392  INFO 10548 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 01:48:19.441  INFO 10548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 01:48:19.442  INFO 10548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 742 ms
+2021-04-12 01:48:19.471 DEBUG 10548 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 01:48:19.672  INFO 10548 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 01:48:19.709  INFO 10548 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 01:48:19.885  INFO 10548 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ec88aa1, org.springframework.security.web.context.SecurityContextPersistenceFilter@62cf6a84, org.springframework.security.web.header.HeaderWriterFilter@6dae70f9, org.springframework.security.web.csrf.CsrfFilter@700b9e6b, org.springframework.security.web.authentication.logout.LogoutFilter@2becfd4c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a9b41a0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7c71c889, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3e6748ae, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5f193335, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b2aafbc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b57dba4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28f154cc, org.springframework.security.web.session.SessionManagementFilter@53a301f3, org.springframework.security.web.access.ExceptionTranslationFilter@634e1b39, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c7d7430]
+2021-04-12 01:48:19.926  INFO 10548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 01:48:19.933  INFO 10548 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.514 seconds (JVM running for 1.774)
+2021-04-12 01:48:29.851  INFO 10548 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 01:48:29.851  INFO 10548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 01:48:29.855  INFO 10548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-12 01:48:34.868 DEBUG 10548 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 01:48:35.516 DEBUG 10548 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 07:58:57.796  INFO 10548 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 08:01:22.842  INFO 6608 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 6608 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 08:01:22.843  INFO 6608 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 08:01:23.240  INFO 6608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 08:01:23.242  INFO 6608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 08:01:23.249  INFO 6608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 08:01:23.709  INFO 6608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 08:01:23.717  INFO 6608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 08:01:23.718  INFO 6608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 08:01:23.787  INFO 6608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 08:01:23.787  INFO 6608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 904 ms
+2021-04-12 08:01:23.816 DEBUG 6608 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 08:01:24.064  INFO 6608 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 08:01:24.101  INFO 6608 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 08:01:24.284  INFO 6608 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@448ade1, org.springframework.security.web.context.SecurityContextPersistenceFilter@51b87df7, org.springframework.security.web.header.HeaderWriterFilter@1be52861, org.springframework.security.web.csrf.CsrfFilter@72af90e8, org.springframework.security.web.authentication.logout.LogoutFilter@60deefed, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26275b46, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@49754e74, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@21f9c6ea, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a9b41a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@634e1b39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6dae70f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@418f0534, org.springframework.security.web.session.SessionManagementFilter@615439f7, org.springframework.security.web.access.ExceptionTranslationFilter@1c1fa494, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d91fa02]
+2021-04-12 08:01:24.328  INFO 6608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 08:01:24.335  INFO 6608 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.906 seconds (JVM running for 2.219)
+2021-04-12 08:01:34.349  INFO 6608 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 08:01:34.350  INFO 6608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 08:01:34.358  INFO 6608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-12 08:01:37.994 DEBUG 6608 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 08:01:38.639 DEBUG 6608 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 08:10:53.924 DEBUG 6608 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /weather]
+2021-04-12 08:10:54.418 DEBUG 6608 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /weather]
+2021-04-12 08:59:58.416 DEBUG 6608 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /]
+2021-04-12 08:59:58.444 DEBUG 6608 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /]
+2021-04-12 08:59:58.460 DEBUG 6608 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /styles.css]
+2021-04-12 08:59:58.465 DEBUG 6608 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /styles.css]
+2021-04-12 08:59:58.465 DEBUG 6608 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /vendor.js]
+2021-04-12 08:59:58.465 DEBUG 6608 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /polyfills.js]
+2021-04-12 08:59:58.465 DEBUG 6608 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /runtime.js]
+2021-04-12 08:59:58.465 DEBUG 6608 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /main.js]
+2021-04-12 08:59:58.479 DEBUG 6608 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /runtime.js]
+2021-04-12 08:59:58.479 DEBUG 6608 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /polyfills.js]
+2021-04-12 08:59:58.479 DEBUG 6608 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /main.js]
+2021-04-12 08:59:58.491 DEBUG 6608 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /vendor.js]
+2021-04-12 08:59:58.548 DEBUG 6608 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /weather]
+2021-04-12 08:59:58.548 DEBUG 6608 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /information]
+2021-04-12 08:59:58.555 DEBUG 6608 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /information]
+2021-04-12 08:59:59.034 DEBUG 6608 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /weather]
+2021-04-12 09:00:18.389 DEBUG 6608 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /]
+2021-04-12 09:00:18.393 DEBUG 6608 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /]
+2021-04-12 09:00:18.462 DEBUG 6608 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /styles.css]
+2021-04-12 09:00:18.463 DEBUG 6608 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /runtime.js]
+2021-04-12 09:00:18.466 DEBUG 6608 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /vendor.js]
+2021-04-12 09:00:18.466 DEBUG 6608 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /main.js]
+2021-04-12 09:00:18.466 DEBUG 6608 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /polyfills.js]
+2021-04-12 09:00:18.469 DEBUG 6608 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /styles.css]
+2021-04-12 09:00:18.477 DEBUG 6608 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /main.js]
+2021-04-12 09:00:18.471 DEBUG 6608 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /runtime.js]
+2021-04-12 09:00:18.481 DEBUG 6608 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /polyfills.js]
+2021-04-12 09:00:18.491 DEBUG 6608 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /vendor.js]
+2021-04-12 09:00:18.556 DEBUG 6608 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /information]
+2021-04-12 09:00:18.556 DEBUG 6608 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /weather]
+2021-04-12 09:00:18.557 DEBUG 6608 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /information]
+2021-04-12 09:00:18.790 DEBUG 6608 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /weather]
+2021-04-12 09:00:24.173 DEBUG 6608 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 09:00:24.422 DEBUG 6608 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 09:42:55.368  INFO 6608 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 09:43:31.546  INFO 23312 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 23312 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 09:43:31.548  INFO 23312 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 09:43:31.915  INFO 23312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 09:43:31.917  INFO 23312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 09:43:31.924  INFO 23312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 09:43:32.291  INFO 23312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 09:43:32.297  INFO 23312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 09:43:32.298  INFO 23312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 09:43:32.355  INFO 23312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 09:43:32.355  INFO 23312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 778 ms
+2021-04-12 09:43:32.388 DEBUG 23312 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 09:43:32.601  INFO 23312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 09:43:32.639  INFO 23312 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 09:43:32.823  INFO 23312 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@722531ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c71c889, org.springframework.security.web.header.HeaderWriterFilter@341c6ac2, org.springframework.security.web.csrf.CsrfFilter@3b57dba4, org.springframework.security.web.authentication.logout.LogoutFilter@96abc76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@427308f8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4d69d288, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@8f57e4c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@74fb5b59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c59a0f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79e10fb4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26fadd98, org.springframework.security.web.session.SessionManagementFilter@787d1f9c, org.springframework.security.web.access.ExceptionTranslationFilter@1b46392c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27c53c32]
+2021-04-12 09:43:32.866  INFO 23312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 09:43:32.873  INFO 23312 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.588 seconds (JVM running for 1.833)
+2021-04-12 09:44:29.160  INFO 23312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-12 09:44:29.161  INFO 23312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 09:44:29.164  INFO 23312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-12 09:44:32.902 DEBUG 23312 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /]
+2021-04-12 09:44:32.916 DEBUG 23312 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /]
+2021-04-12 09:44:32.932 DEBUG 23312 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /styles.css]
+2021-04-12 09:44:32.934 DEBUG 23312 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /runtime.js]
+2021-04-12 09:44:32.936 DEBUG 23312 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /main.js]
+2021-04-12 09:44:32.936 DEBUG 23312 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /vendor.js]
+2021-04-12 09:44:32.936 DEBUG 23312 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /polyfills.js]
+2021-04-12 09:44:32.938 DEBUG 23312 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /styles.css]
+2021-04-12 09:44:32.942 DEBUG 23312 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /main.js]
+2021-04-12 09:44:32.942 DEBUG 23312 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /runtime.js]
+2021-04-12 09:44:32.960 DEBUG 23312 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /polyfills.js]
+2021-04-12 09:44:32.972 DEBUG 23312 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /vendor.js]
+2021-04-12 09:44:33.031 DEBUG 23312 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /information]
+2021-04-12 09:44:33.031 DEBUG 23312 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /weather]
+2021-04-12 09:44:33.031 DEBUG 23312 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /forecast]
+2021-04-12 09:44:33.059 DEBUG 23312 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /information]
+2021-04-12 09:44:33.698 DEBUG 23312 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /weather]
+2021-04-12 09:44:33.698 DEBUG 23312 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /forecast]
+2021-04-12 10:05:59.067  INFO 23312 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 10:06:27.976  INFO 7860 --- [main] challenge.ChallengeApplication           : Starting ChallengeApplication using Java 11.0.10 on DESKTOP-KH5G72L with PID 7860 (D:\DEV\workspace\challenge\target\classes started by ichi in D:\DEV\workspace\challenge)
+2021-04-12 10:06:27.978  INFO 7860 --- [main] challenge.ChallengeApplication           : No active profile set, falling back to default profiles: default
+2021-04-12 10:06:28.342  INFO 7860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-12 10:06:28.344  INFO 7860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-04-12 10:06:28.353  INFO 7860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2021-04-12 10:06:28.712  INFO 7860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 10:06:28.718  INFO 7860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 10:06:28.719  INFO 7860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 10:06:28.783  INFO 7860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 10:06:28.783  INFO 7860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2021-04-12 10:06:28.812 DEBUG 7860 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2021-04-12 10:06:29.021  INFO 7860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 10:06:29.059  INFO 7860 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-04-12 10:06:29.242  INFO 7860 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c24f3a2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3404e5c4, org.springframework.security.web.header.HeaderWriterFilter@49491770, org.springframework.security.web.csrf.CsrfFilter@7a3f08b6, org.springframework.security.web.authentication.logout.LogoutFilter@70fede7d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7c9beb51, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@36510e73, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@783b3aa0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6af78a48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42d9e8d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2616b618, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ec85a25, org.springframework.security.web.session.SessionManagementFilter@3b57dba4, org.springframework.security.web.access.ExceptionTranslationFilter@62cf6a84, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fe46d52]
+2021-04-12 10:06:29.286  INFO 7860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 10:06:29.294  INFO 7860 --- [main] challenge.ChallengeApplication           : Started ChallengeApplication in 1.573 seconds (JVM running for 1.887)
