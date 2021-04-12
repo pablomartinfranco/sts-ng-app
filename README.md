@@ -13,3 +13,9 @@ Open browser on localhost:8080
 User: admin
 Pass: admin
 
+If the project wont build for any reason run
+
+> mvnw clean install
+
+And repeat from step one
+
