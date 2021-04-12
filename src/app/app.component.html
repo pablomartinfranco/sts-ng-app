@@ -1,11 +1,9 @@
 <div style="text-align:center"class="container">
-  <h1>
-    Welcome {{title}}!
-  </h1>
+  <h1>{{information.title}}</h1>
   <div class="container">
-    <p>Id: <span>{{information.id}}</span></p>
-    <p>Message: <span>{{information.title}}</span></p>
-    <p>Temp: <span>{{weather.main.temp}}</span></p>
-    <p>City: <span>{{forecast.city.name}}</span></p>
+    <!-- <p>User: <span>{{session}}</span></p> -->
+    <p>Ciudad: <span>{{location}}</span></p>
+    <!-- <div *ngFor="let item of forecast.list"><p>{{item|json}}</p></div> -->
+    <div *ngFor="let item of forecastDaily"><p>{{item|json}}</p></div>
   </div>
 </div>

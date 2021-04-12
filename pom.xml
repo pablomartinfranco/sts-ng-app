@@ -45,6 +45,11 @@
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-context</artifactId>
 		</dependency>
+		<dependency>
+       		<groupId>cglib</groupId>
+	        <artifactId>cglib</artifactId>
+	        <version>3.3.0</version>
+    	</dependency>
 		
 		<dependency>
 			<groupId>com.h2database</groupId>

@@ -3,7 +3,7 @@ export interface Forecast {
     cnt:     number;
     cod:     string;
     message: number;
-    list:    List[];
+    list:    ForecastItem[];
 }
 
 export interface City {
@@ -22,7 +22,7 @@ export interface Coord {
     lat: number;
 }
 
-export interface List {
+export interface ForecastItem {
     dt:         number;
     pop:        number;
     visibility: number;

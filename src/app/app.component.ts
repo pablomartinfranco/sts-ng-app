@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import * as types from './app.types';
+import * as model from './app.model';
 
 @Component({
   selector: 'app-root',
@@ -9,13 +9,20 @@ import * as types from './app.types';
 })
 
 export class AppComponent {
+
   title = 'Client';
   information: any = { id: "", title: "" };
-  weather: any = { main: { temp: "", humidity: "", pressure: "" } };
-  forecast: types.Forecast = null;
+  forecast: model.Forecast;
+  session: String;
+
   constructor(private http: HttpClient) {
     http.get('information').subscribe(data => this.information = data);
-    http.get('weather').subscribe(data => this.weather = data);
-    http.get('forecast').subscribe(data => this.forecast = data as types.Forecast);
+    http.get('forecast').subscribe(data => this.forecast = data as model.Forecast);
+    http.get('session').subscribe(data => this.session = data as String);
   }
+
+  get location(): String { return `${this.forecast.city.name}, ${this.forecast.city.country}`; }
+
+  get forecastDaily(): model.ForecastItem[] { return this.forecast.list.filter((item, index) => index % 8 == 0); }
+
 }
