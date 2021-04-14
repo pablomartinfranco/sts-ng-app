@@ -8,7 +8,7 @@ From project root-dir run
 
 `mvnw spring-boot:run`
 
-NPM tasks will log with error tag but complete correctly
+NPM tasks will log with error but complete correctly
 
 Open browser on localhost:8080
 
