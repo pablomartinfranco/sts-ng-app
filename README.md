@@ -8,12 +8,15 @@ From project root-dir run
 
 `mvnw spring-boot:run`
 
+NPM tasks will log with error tag but complete correctly
+
 Open browser on localhost:8080
 
 User: admin
+
 Pass: admin
 
-If the project wont build for any reason run
+If the project wont build and run correctly for any reason run
 
 `mvnw clean install`
 
