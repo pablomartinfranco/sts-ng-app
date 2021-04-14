@@ -12,13 +12,15 @@ import org.springframework.web.context.annotation.SessionScope;
 public class SessionService {
 
     public String currentUser() {
+        
+        String user = "";
 
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         
         if (principal instanceof UserDetails) {
-            this.user = ((UserDetails)principal).getUsername();
+            user = ((UserDetails)principal).getUsername();
         } else {
-            this.user = principal. toString();
+            user = principal. toString();
         }
         
         return user;
