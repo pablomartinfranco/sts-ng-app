@@ -18,7 +18,7 @@ User: admin
 
 Pass: admin
 
-If the project wont build and run correctly for any reason run
+If the project wont build & run correctly for any reason run
 
 `mvnw clean install`
 
