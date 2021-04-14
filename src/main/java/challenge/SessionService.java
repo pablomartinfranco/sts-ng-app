@@ -11,16 +11,14 @@ import org.springframework.web.context.annotation.SessionScope;
 @SessionScope
 public class SessionService {
 
-    private String user;
-    
     public String currentUser() {
-        if (user == null) {
-            Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-            if (principal instanceof UserDetails) {
-            	this.user = ((UserDetails)principal).getUsername();
-            } else {
-            	this.user = principal. toString();
-            }
+
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        
+        if (principal instanceof UserDetails) {
+            this.user = ((UserDetails)principal).getUsername();
+        } else {
+            this.user = principal. toString();
         }
         
         return user;
