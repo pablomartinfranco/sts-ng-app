@@ -2,7 +2,9 @@
 
 Project build & run was tested for Open-Jdk 11 only
 
-Add project root-dir to PATH variable
+Set JAVA_HOME with Jdk excutable and add jdk directory to PATH variable 
+
+Temporary add project root-dir to the PATH env variable
 
 From project root-dir run 
 
