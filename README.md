@@ -1,6 +1,6 @@
-## Local Build on Windows 10
+## Local Build & Run for Windows 10
 
-Requirement: Open-Jdk 11
+Project build & run was tested for Open-Jdk 11 only
 
 Add project root-dir to PATH variable
 
