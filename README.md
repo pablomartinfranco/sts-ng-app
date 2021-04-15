@@ -22,5 +22,9 @@ If the project wont build & run correctly for any reason run
 
 `mvnw clean install`
 
+`mvnw generate-resources`
+
+`npm install @angular/cli`
+
 And repeat from step one
 
