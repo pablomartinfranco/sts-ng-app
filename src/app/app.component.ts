@@ -11,14 +11,12 @@ import * as model from './app.model';
 export class AppComponent {
 
   title = 'Client';
-  information: any = { id: "", title: "" };
   forecast: model.Forecast;
   session: String;
 
-  constructor(private http: HttpClient) {
-    http.get('information').subscribe(data => this.information = data);
-    http.get('forecast').subscribe(data => this.forecast = data as model.Forecast);
-    http.get('session').subscribe(data => this.session = data as String);
+  constructor(private readonly http: HttpClient) {
+    this.http.get('forecast').subscribe(data => this.forecast = data as model.Forecast);
+    this.http.get('session').subscribe(data => this.session = data as String);
   }
 
   get location(): String { return `${this.forecast.city.name}, ${this.forecast.city.country}`; }

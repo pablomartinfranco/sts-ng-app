@@ -20,14 +20,6 @@ public class WeatherController {
         this.weatherService = weatherService;
     }
 	
-	@GetMapping("/information")
-  	public Map<String, Object> information() {
-		Map<String, Object> model = new HashMap<String, Object>();
-		model.put("id", UUID.randomUUID().toString());
-		model.put("title", "Servicio del Clima");
-		return model;
-	}
-	
 	@GetMapping("/weather")
   	public JSONObject weather() {
 		return weatherService.weather();
