@@ -1,7 +1,7 @@
 @ECHO OFF
 
 IF EXIST "%~dp0\node\node.exe" (
-  "%~dp0\node\node.exe"  "%~dp0\node\node_modules\@angular\cli\bin\ng" %*
+  "%~dp0\node\node.exe"  "%~dp0\node_modules\@angular\cli\bin\ng" %*
 ) ELSE (
   SETLOCAL
   SET PATHEXT=%PATHEXT:;.JS;=;%

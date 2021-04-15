@@ -79,3 +79,4 @@ testem.log
 Thumbs.db
 
 /logfile.log
+/node/

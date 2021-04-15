@@ -123,16 +123,21 @@
 	            </configuration>
 	            <executions>
 	                <execution>
-	                    <id>install-npm</id>
+	                    <id>install-node-and-npm</id>
 	                    <goals>
 	                        <goal>install-node-and-npm</goal>
 	                    </goals>
+	                    <phase>generate-resources</phase>
 	                </execution>
                     <execution>
                         <id>npm-install</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
+                        <phase>generate-resources</phase>
+					    <configuration>
+					        <arguments>install --also=dev</arguments>
+					    </configuration>
                     </execution>
                     <execution>
                         <id>npm-build</id>
