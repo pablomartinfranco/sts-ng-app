@@ -1,4 +1,4 @@
-## Deploy for Windows 10
+## Build & Run for Windows 10
 
 This has only been tested for Open-Jdk 11
 
