@@ -1,6 +1,6 @@
 ## Build & Run for Windows 10
 
-This has only been tested for Open-Jdk 11
+Has only been tested for Open-Jdk 11
 
 Set JAVA_HOME with Jdk excutable and add jdk directory to PATH variable 
 
